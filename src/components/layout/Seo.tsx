@@ -22,7 +22,7 @@ export function Seo({
       <meta name="description" content={description} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content="/og-image.svg" />
+      <meta property="og:image" content="/og-image.png" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       {path && <link rel="canonical" href={`https://journeyplus.app${path}`} />}

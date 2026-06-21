@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import { Container } from './Container';
+import { Logo } from '../ui/Logo';
 import { FOOTER_LINKS, SITE } from '../../lib/constants';
 
 export function Footer() {
@@ -10,12 +10,7 @@ export function Footer() {
       <Container>
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl gradient-green">
-                <span className="text-sm font-extrabold text-white">T+</span>
-              </div>
-              <span className="text-h4 font-bold">JourneyPlus</span>
-            </Link>
+            <Logo />
             <p className="mt-4 max-w-xs text-body text-text-secondary">
               {SITE.tagline}
             </p>
