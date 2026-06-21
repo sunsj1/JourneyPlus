@@ -1,8 +1,8 @@
 export const SITE = {
   name: 'JourneyPlus',
-  tagline: 'AI Highway Companion for Indian Road Trips',
+  tagline: 'AI Highway Companion for Road Trips',
   description:
-    'Plan smarter Indian highway trips. Route-aware POI discovery, predictive alerts, and community trust on every stop. Not a maps app.',
+    'Plan smarter road trips. Route-aware POI discovery, predictive alerts, and community trust on every stop. Not a maps app.',
   // TODO: Replace with live store URLs before publish
   playStoreUrl: '#',
   appStoreUrl: '#',
@@ -57,13 +57,13 @@ export const FEATURES = [
     icon: 'LayoutGrid',
     title: 'Smart Intelligence Grid',
     description:
-      'Sixteen categories — fuel, EV chargers, restaurants, pure-veg, washrooms, ATMs, hotels, hospitals, mechanics, parking, cafes, scenic spots, temples, tourist places, and more. Every list is filtered to your route corridor, not random nearby places.',
+      'Sixteen categories — fuel, EV chargers, restaurants, dietary-friendly food, washrooms, ATMs, hotels, hospitals, mechanics, parking, cafes, scenic spots, landmarks, tourist places, and more. Every list is filtered to your route corridor, not random nearby places.',
   },
   {
     icon: 'Bell',
     title: 'Predictive alerts',
     description:
-      'JourneyPlus looks ahead, not behind. Get warned before fuel runs low, the next charger is too far, meal time approaches, you enter a ghat section, fatigue sets in after hours of driving, or night falls on an unfamiliar stretch.',
+      'JourneyPlus looks ahead, not behind. Get warned before fuel runs low, the next charger is too far, meal time approaches, you enter a steep or mountain stretch, fatigue sets in after hours of driving, or night falls on an unfamiliar road.',
   },
   {
     icon: 'HeartHandshake',
@@ -73,9 +73,9 @@ export const FEATURES = [
   },
   {
     icon: 'Shield',
-    title: 'India-first modes',
+    title: 'Traveler-first modes',
     description:
-      'Family mode, women-safe mode, and bike rider mode filter stops for how you actually travel on Indian highways. Pure-veg preferences, baby-friendly tags, and hygienic washroom signals from the community.',
+      'Family mode, women-safe mode, and bike rider mode filter stops for how you actually travel. Dietary preferences, baby-friendly tags, and community-backed amenity signals from real travelers.',
   },
   {
     icon: 'WifiOff',
@@ -92,7 +92,7 @@ export const COMPARISON = [
   },
   {
     traditional: 'Reactive — you search when you already need something',
-    journeyPlus: 'Predictive — warns before fuel runs low, before the ghat, before fatigue',
+    journeyPlus: 'Predictive — warns before fuel runs low, before tough terrain, before fatigue',
   },
   {
     traditional: 'Star ratings from strangers, no context',
@@ -103,8 +103,8 @@ export const COMPARISON = [
     journeyPlus: 'Smart Intelligence Grid — 16 categories in one trip-aware surface',
   },
   {
-    traditional: 'Generic for every country',
-    journeyPlus: 'India-first — pure-veg, women-safe, family mode, ghat alerts, temple stops',
+    traditional: 'Generic one-size-fits-all filters',
+    journeyPlus: 'Traveler-first — family, women-safe, dietary prefs, terrain alerts, cultural stops',
   },
   {
     traditional: 'Needs constant network',
@@ -121,13 +121,13 @@ export const HOW_IT_WORKS = [
     step: 1,
     title: 'Plan your trip',
     description:
-      'Set from, to, vehicle type, and preferences (pure-veg, family, fast chargers only, and more). See your trip overview: distance, ETA, tolls, fuel or charging estimate, weather strip, and traffic level.',
+      'Set from, to, vehicle type, and preferences (dietary, family, fast chargers only, and more). See your trip overview: distance, ETA, tolls, fuel or charging estimate, weather strip, and traffic level.',
   },
   {
     step: 2,
     title: 'Discover along your corridor',
     description:
-      'Open the Discover tab and tap any category — fuel, food, washrooms, EV, hotels, scenic, temples. Stops are ranked by best match for your preferences, not just nearest. Every tile shows community trust at a glance.',
+      'Open the Discover tab and tap any category — fuel, food, washrooms, EV, hotels, scenic, landmarks. Stops are ranked by best match for your preferences, not just nearest. Every tile shows community trust at a glance.',
   },
   {
     step: 3,
@@ -141,7 +141,7 @@ export const PERSONAS = [
   {
     title: 'Highway families',
     description:
-      'Find hygienic washrooms, pure-veg food, and safe hotel stops without endless searching.',
+      'Find clean restrooms, food that matches your preferences, and safe hotel stops without endless searching.',
     icon: 'Users',
   },
   {
@@ -159,7 +159,7 @@ export const PERSONAS = [
   {
     title: 'Night drivers',
     description:
-      'Ghat warnings, fatigue reminders, and night-mode hotel suggestions before you need them.',
+      'Terrain warnings, fatigue reminders, and night-mode hotel suggestions before you need them.',
     icon: 'Moon',
   },
 ] as const;

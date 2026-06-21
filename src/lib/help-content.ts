@@ -30,12 +30,12 @@ export const HELP_FAQ = {
     {
       question: 'What are the 16 POI categories?',
       answer:
-        'Fuel, EV charging, restaurants, pure-veg, washrooms, ATMs, hotels, hospitals, mechanics, parking, cafes, scenic spots, temples, tourist places, police, and kids-friendly stops.',
+        'Fuel, EV charging, restaurants, dietary-friendly food, washrooms, ATMs, hotels, hospitals, mechanics, parking, cafes, scenic spots, landmarks, tourist places, police, and kids-friendly stops.',
     },
     {
       question: 'What does "Best match" sorting mean?',
       answer:
-        'JourneyPlus ranks stops using your saved preferences — veg, family, women-safe, brand affinity, ratings, distance, and openness. Tap a POI to see "Why we recommend this."',
+        'JourneyPlus ranks stops using your saved preferences — dietary, family, women-safe, brand affinity, ratings, distance, and openness. Tap a POI to see "Why we recommend this."',
     },
     {
       question: 'What are Hidden Gems?',
@@ -52,7 +52,7 @@ export const HELP_FAQ = {
     {
       question: 'What alerts does JourneyPlus send?',
       answer:
-        'Fuel low, EV charger gap, food window, ghat ahead, fatigue break, night driving, and weather warnings — depending on your vehicle, route, and time of day.',
+        'Fuel low, EV charger gap, food window, steep terrain ahead, fatigue break, night driving, and weather warnings — depending on your vehicle, route, and time of day.',
     },
     {
       question: 'Can I mute alerts?',

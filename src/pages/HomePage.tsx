@@ -20,7 +20,7 @@ const jsonLd = {
     priceCurrency: 'INR',
   },
   description:
-    'Plan smarter Indian highway trips. Route-aware POI discovery, predictive alerts, and community trust on every stop.',
+    'Plan smarter road trips. Route-aware POI discovery, predictive alerts, and community trust on every stop.',
 };
 
 export function HomePage() {

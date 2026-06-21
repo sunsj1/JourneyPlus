@@ -7,5 +7,5 @@
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
   <text x="600" y="300" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="96" font-weight="800">JourneyPlus</text>
-  <text x="600" y="380" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-family="Inter, sans-serif" font-size="32" font-weight="500">AI Highway Companion for Indian Road Trips</text>
+  <text x="600" y="380" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-family="Inter, sans-serif" font-size="32" font-weight="500">AI Highway Companion for Road Trips</text>
 </svg>

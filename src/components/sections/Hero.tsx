@@ -7,7 +7,7 @@ import { GradientText } from '../ui/GradientText';
 import { PhoneMockup } from '../ui/PhoneMockup';
 import { fadeUp, staggerContainer, wordFade, wordStagger } from '../../lib/animations';
 
-const headline = 'Your smart companion for every Indian highway'.split(' ');
+const headline = 'Your smart companion for every highway'.split(' ');
 
 export function Hero() {
   return (
@@ -56,8 +56,8 @@ export function Hero() {
               className="mt-6 max-w-xl text-body-lg text-text-secondary md:text-lg"
             >
               JourneyPlus plans your route, discovers trusted stops along the corridor,
-              and warns you before fuel runs low, chargers disappear, or a ghat
-              begins — so you can focus on the drive.
+              and warns you before fuel runs low, chargers disappear, or tough
+              terrain begins — so you can focus on the drive.
             </motion.p>
 
             <motion.div

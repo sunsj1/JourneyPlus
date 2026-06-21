@@ -1,6 +1,6 @@
 # JourneyPlus — Brand Website
 
-Marketing site for **JourneyPlus — AI Highway Companion for Indian Road Trips**.
+Marketing site for **JourneyPlus — AI Highway Companion for Road Trips**.
 
 ## Status
 

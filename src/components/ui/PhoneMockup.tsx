@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Fuel, Clock, IndianRupee, CloudRain, AlertTriangle } from 'lucide-react';
+import { Fuel, Clock, CircleDollarSign, CloudRain, AlertTriangle } from 'lucide-react';
 import { slideInRight } from '../../lib/animations';
 
 export function PhoneMockup() {
@@ -50,7 +50,7 @@ export function PhoneMockup() {
           {/* Stat cards grid */}
           <div className="grid grid-cols-2 gap-2 p-3">
             <StatCard icon={Clock} label="ETA" value="4h 12m" />
-            <StatCard icon={IndianRupee} label="Tolls" value="₹420" />
+            <StatCard icon={CircleDollarSign} label="Tolls" value="$18" />
             <StatCard icon={Fuel} label="Fuel" value="2 stops" />
             <StatCard icon={CloudRain} label="Weather" value="Clear" />
           </div>
@@ -59,10 +59,10 @@ export function PhoneMockup() {
           <div className="mx-3 flex-1 overflow-hidden rounded-xl bg-primary-surface">
             <div className="p-3">
               <p className="text-[9px] font-semibold uppercase tracking-wider text-text-tertiary">
-                Mumbai → Pune
+                Portland → Seattle
               </p>
               <p className="mt-1 text-[11px] font-bold text-text-primary">
-                148 km · Light traffic
+                278 km · Light traffic
               </p>
             </div>
             <svg className="w-full" viewBox="0 0 200 80" aria-hidden>

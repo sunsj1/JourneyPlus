@@ -48,7 +48,7 @@ export function Footer() {
             © {year} JourneyPlus. All rights reserved.
           </p>
           <p className="text-caption text-text-tertiary">
-            Made for Indian highways
+            Built for road travelers everywhere
           </p>
         </div>
       </Container>

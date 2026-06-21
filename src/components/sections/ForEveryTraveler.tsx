@@ -24,7 +24,7 @@ export function ForEveryTraveler() {
       >
         <h2 className="text-h1 text-text-primary">For every traveler</h2>
         <p className="mt-4 text-body-lg text-text-secondary">
-          Whether you&apos;re crossing ghats with family, pushing EV range, or
+          Whether you&apos;re crossing mountain roads with family, pushing EV range, or
           riding solo at night — JourneyPlus adapts to how you travel.
         </p>
       </motion.div>

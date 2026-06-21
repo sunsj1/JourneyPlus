@@ -27,7 +27,7 @@ export function TermsPage() {
               <p>
                 JourneyPlus provides route planning, corridor-aware point-of-interest
                 discovery, predictive travel alerts, and community-sourced information
-                for road trips in India. JourneyPlus is{' '}
+                for road trips worldwide. JourneyPlus is{' '}
                 <strong className="font-semibold text-text-primary">
                   not a navigation replacement
                 </strong>

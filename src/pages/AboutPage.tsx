@@ -8,7 +8,7 @@ const beliefs = [
   'Route-aware beats nearby-always.',
   'Predictive beats reactive.',
   'Trust signals (sample size + freshness) beat anonymous star ratings.',
-  'India-first features — ghats, pure-veg, women-safe, family mode — are essentials, not extras.',
+  'Traveler-first features — family, women-safe, terrain-aware modes — are essentials, not extras.',
   'Drivers deserve calm UX, especially when they\'re tired on a highway.',
 ];
 
@@ -26,7 +26,7 @@ export function AboutPage() {
           >
             <h1 className="text-h1 text-text-primary">About JourneyPlus</h1>
             <p className="mt-6 text-body-lg text-text-secondary">
-              JourneyPlus started from a simple frustration: planning an Indian highway
+              JourneyPlus started from a simple frustration: planning a long highway
               trip means juggling maps, fuel apps, food reviews, charger finders,
               and WhatsApp tips from friends — none of them aware of your actual
               route or vehicle.
@@ -45,8 +45,8 @@ export function AboutPage() {
           >
             <h2 className="text-h2 text-text-primary">Our mission</h2>
             <p className="mt-4 text-body-lg text-text-secondary">
-              We built JourneyPlus to be the calm, intelligent companion for Indian
-              road trips. Not another map. A trip control center that plans ahead,
+              We built JourneyPlus to be the calm, intelligent companion for road
+              trips everywhere. Not another map. A trip control center that plans ahead,
               discovers what&apos;s on your corridor, and warns you before problems
               happen — backed by real community trust signals from travelers like you.
             </p>
@@ -81,7 +81,7 @@ export function AboutPage() {
             <h2 className="text-h2 text-text-primary">What JourneyPlus is today</h2>
             <p className="mt-4 text-body-lg text-text-secondary">
               The app supports multi-vehicle route planning, a 16-category Smart
-              Intelligence Grid, predictive alerts (fuel, EV, food, ghat, night,
+              Intelligence Grid, predictive alerts (fuel, EV, food, terrain, night,
               fatigue, weather), personalized POI ranking, family/women-safe/bike
               modes, curated hidden gems, trip history, and community pulses on
               every stop.
@@ -110,7 +110,7 @@ export function AboutPage() {
             className="rounded-2xl border border-border-light bg-primary-surface p-8"
           >
             <p className="text-body-lg text-text-secondary">
-              JourneyPlus is built by a small team passionate about Indian road
+              JourneyPlus is built by a small team passionate about road
               travel. We&apos;re travelers first, engineers second.
             </p>
           </motion.div>
