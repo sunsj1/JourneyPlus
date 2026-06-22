@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "generate:logos": "node scripts/generate-logo-pngs.mjs"
+    "generate:logos": "node scripts/generate-logo-pngs.mjs",
+    "generate:social": "node scripts/generate-social-media.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.18.2",

@@ -83,8 +83,8 @@ export function TermsPage() {
             <LegalSection title="7. Contact">
               <p>
                 Legal questions:{' '}
-                <a href="mailto:legal@journeyplus.app" className="text-primary">
-                  legal@journeyplus.app
+                <a href="mailto:legal@journeyplus.in" className="text-primary">
+                  legal@journeyplus.in
                 </a>
               </p>
             </LegalSection>

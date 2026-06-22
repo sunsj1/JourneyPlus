@@ -96,7 +96,7 @@ export const HELP_FAQ = {
     {
       question: 'How do I delete my account?',
       answer:
-        'Contact us at support@journeyplus.app and we\'ll process deletion of your Firebase profile and community reports linked to your account.',
+        'Contact us at support@journeyplus.in and we\'ll process deletion of your Firebase profile and community reports linked to your account.',
     },
   ],
 } as const;

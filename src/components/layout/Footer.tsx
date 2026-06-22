@@ -15,6 +15,15 @@ export function Footer() {
               {SITE.tagline}
             </p>
             <p className="mt-2 text-caption text-text-tertiary">
+              <a
+                href={SITE.url}
+                className="link-underline hover:text-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                journeyplus.in
+              </a>
+              {' · '}
               Not a maps app — your smart companion for every kilometer.
             </p>
           </div>

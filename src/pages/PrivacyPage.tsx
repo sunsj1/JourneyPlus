@@ -87,8 +87,8 @@ export function PrivacyPage() {
                 <li>Uninstall — removes on-device data</li>
                 <li>
                   Account deletion — email{' '}
-                  <a href="mailto:support@journeyplus.app" className="text-primary">
-                    support@journeyplus.app
+                  <a href="mailto:support@journeyplus.in" className="text-primary">
+                    support@journeyplus.in
                   </a>
                 </li>
               </ul>
@@ -97,8 +97,8 @@ export function PrivacyPage() {
             <LegalSection title="6. Contact">
               <p>
                 Questions about privacy:{' '}
-                <a href="mailto:privacy@journeyplus.app" className="text-primary">
-                  privacy@journeyplus.app
+                <a href="mailto:privacy@journeyplus.in" className="text-primary">
+                  privacy@journeyplus.in
                 </a>
               </p>
             </LegalSection>

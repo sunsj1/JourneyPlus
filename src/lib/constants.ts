@@ -1,14 +1,15 @@
 export const SITE = {
   name: 'JourneyPlus',
+  url: 'https://www.journeyplus.in',
   tagline: 'AI Highway Companion for Road Trips',
   description:
     'Plan smarter road trips. Route-aware POI discovery, predictive alerts, and community trust on every stop. Not a maps app.',
   // TODO: Replace with live store URLs before publish
   playStoreUrl: '#',
   appStoreUrl: '#',
-  supportEmail: 'support@journeyplus.app',
-  privacyEmail: 'privacy@journeyplus.app',
-  legalEmail: 'legal@journeyplus.app',
+  supportEmail: 'support@journeyplus.in',
+  privacyEmail: 'privacy@journeyplus.in',
+  legalEmail: 'legal@journeyplus.in',
 } as const;
 
 export const NAV_LINKS = [
@@ -33,7 +34,7 @@ export const FOOTER_LINKS = {
     { label: 'Terms & conditions', href: '/terms' },
   ],
   connect: [
-    { label: 'Email', href: 'mailto:support@journeyplus.app' },
+    { label: 'Email', href: 'mailto:support@journeyplus.in' },
     { label: 'Twitter/X', href: '#' },
     { label: 'Instagram', href: '#' },
   ],

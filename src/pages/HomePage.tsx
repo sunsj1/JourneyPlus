@@ -7,11 +7,13 @@ import { HowItWorks } from '../components/sections/HowItWorks';
 import { ForEveryTraveler } from '../components/sections/ForEveryTraveler';
 import { DownloadCta } from '../components/sections/DownloadCta';
 import { FaqPreview } from '../components/sections/FaqPreview';
+import { SITE } from '../lib/constants';
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'SoftwareApplication',
   name: 'JourneyPlus',
+  url: SITE.url,
   applicationCategory: 'TravelApplication',
   operatingSystem: 'Android, iOS',
   offers: {

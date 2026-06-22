@@ -16,16 +16,22 @@ export function Seo({
     ? `${title} — ${SITE.name}`
     : `${SITE.name} — ${SITE.tagline}`;
 
+  const canonical = `${SITE.url}${path}`;
+  const ogImage = `${SITE.url}/og-image.png`;
+
   return (
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content="/og-image.png" />
+      <meta property="og:image" content={ogImage} />
+      <meta property="og:url" content={canonical} />
       <meta property="og:type" content="website" />
+      <meta property="og:site_name" content={SITE.name} />
       <meta name="twitter:card" content="summary_large_image" />
-      {path && <link rel="canonical" href={`https://journeyplus.app${path}`} />}
+      <meta name="twitter:image" content={ogImage} />
+      <link rel="canonical" href={canonical} />
     </Helmet>
   );
 }
