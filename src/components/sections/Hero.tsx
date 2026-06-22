@@ -5,6 +5,7 @@ import { Badge } from '../ui/Badge';
 import { Button } from '../ui/Button';
 import { GradientText } from '../ui/GradientText';
 import { PhoneMockup } from '../ui/PhoneMockup';
+import { SITE } from '../../lib/constants';
 import { fadeUp, staggerContainer, wordFade, wordStagger } from '../../lib/animations';
 
 const headline = 'Your smart companion for every highway'.split(' ');
@@ -29,7 +30,7 @@ export function Hero() {
             animate="visible"
           >
             <motion.div variants={fadeUp}>
-              <Badge>Now available on Android & iOS</Badge>
+              <Badge>Now available on Android</Badge>
             </motion.div>
 
             <motion.h1
@@ -64,7 +65,12 @@ export function Hero() {
               variants={fadeUp}
               className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center"
             >
-              <Button href="/#download">Download JourneyPlus</Button>
+              <Button
+                href={SITE.androidApkUrl}
+                download={SITE.androidApkFileName}
+              >
+                Download JourneyPlus
+              </Button>
               <Button href="/#how-it-works" variant="secondary">
                 See how it works
                 <ArrowRight className="h-4 w-4" strokeWidth={1.5} />

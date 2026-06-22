@@ -16,6 +16,7 @@ type ButtonAsButton = ButtonBaseProps &
 type ButtonAsLink = ButtonBaseProps & {
   href: string;
   external?: boolean;
+  download?: string | boolean;
 };
 
 type ButtonProps = ButtonAsButton | ButtonAsLink;
@@ -32,17 +33,28 @@ const variants: Record<ButtonVariant, string> = {
 const base =
   'inline-flex h-14 items-center justify-center gap-2 rounded-2xl px-8 text-body-lg font-semibold transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]';
 
+function isStaticAssetHref(href: string) {
+  return /\.[a-z0-9]+$/i.test(href);
+}
+
 export function Button(props: ButtonProps) {
   const { variant = 'primary', children, className = '', pulse = false } = props;
   const classes = `${base} ${variants[variant]} ${pulse ? 'animate-pulse-soft' : ''} ${className}`;
 
   if ('href' in props && props.href) {
-    const { href, external } = props;
-    if (external || href.startsWith('http') || href.startsWith('mailto:')) {
+    const { href, external, download } = props;
+
+    if (
+      external ||
+      href.startsWith('http') ||
+      href.startsWith('mailto:') ||
+      isStaticAssetHref(href)
+    ) {
       return (
         <a
           href={href}
           className={classes}
+          download={download}
           target={external ? '_blank' : undefined}
           rel={external ? 'noopener noreferrer' : undefined}
         >
@@ -50,6 +62,7 @@ export function Button(props: ButtonProps) {
         </a>
       );
     }
+
     if (href.startsWith('/#') || href.startsWith('#')) {
       return (
         <a href={href} className={classes}>
@@ -57,6 +70,7 @@ export function Button(props: ButtonProps) {
         </a>
       );
     }
+
     return (
       <Link to={href} className={classes}>
         {children}

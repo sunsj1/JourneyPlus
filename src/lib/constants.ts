@@ -7,6 +7,8 @@ export const SITE = {
   // TODO: Replace with live store URLs before publish
   playStoreUrl: '#',
   appStoreUrl: '#',
+  androidApkUrl: '/app/JourneyPlus.v1.0.apk',
+  androidApkFileName: 'JourneyPlus.v1.0.apk',
   supportEmail: 'support@journeyplus.in',
   privacyEmail: 'privacy@journeyplus.in',
   legalEmail: 'legal@journeyplus.in',
